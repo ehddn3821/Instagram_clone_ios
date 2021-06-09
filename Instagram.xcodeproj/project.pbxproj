@@ -11,6 +11,7 @@
 		35085EBE267099EC009223E0 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EBD267099EC009223E0 /* DatabaseManager.swift */; };
 		35085EC026709BA5009223E0 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EBF26709BA5009223E0 /* AuthManager.swift */; };
 		35085EC226709C9B009223E0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EC126709C9B009223E0 /* StorageManager.swift */; };
+		35085EC42670A556009223E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EC32670A556009223E0 /* Extensions.swift */; };
 		35177DE8266FB9BD0086E9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DE7266FB9BD0086E9BC /* AppDelegate.swift */; };
 		35177DEA266FB9BD0086E9BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DE9266FB9BD0086E9BC /* SceneDelegate.swift */; };
 		35177DEC266FB9BD0086E9BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DEB266FB9BD0086E9BC /* HomeViewController.swift */; };
@@ -40,6 +41,7 @@
 		35085EBD267099EC009223E0 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		35085EBF26709BA5009223E0 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		35085EC126709C9B009223E0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		35085EC32670A556009223E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		35177DE4266FB9BD0086E9BC /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35177DE7266FB9BD0086E9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35177DE9266FB9BD0086E9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				35085EBA26709394009223E0 /* GoogleService-Info.plist */,
 				35177DE7266FB9BD0086E9BC /* AppDelegate.swift */,
 				35177DE9266FB9BD0086E9BC /* SceneDelegate.swift */,
+				35085EC32670A556009223E0 /* Extensions.swift */,
 				35085EC126709C9B009223E0 /* StorageManager.swift */,
 				35085EBD267099EC009223E0 /* DatabaseManager.swift */,
 				35085EBF26709BA5009223E0 /* AuthManager.swift */,
@@ -345,6 +348,7 @@
 				35177E05266FBBFC0086E9BC /* NotificationsViewController.swift in Sources */,
 				35177E1A266FBCE70086E9BC /* SearchResultViewController.swift in Sources */,
 				35177E0C266FBC5E0086E9BC /* LoginViewController.swift in Sources */,
+				35085EC42670A556009223E0 /* Extensions.swift in Sources */,
 				35177E18266FBCD90086E9BC /* SearchViewController.swift in Sources */,
 				35177E07266FBC050086E9BC /* ProfileViewController.swift in Sources */,
 				35085EC026709BA5009223E0 /* AuthManager.swift in Sources */,
