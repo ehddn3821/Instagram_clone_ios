@@ -12,6 +12,9 @@
 		35085EC026709BA5009223E0 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EBF26709BA5009223E0 /* AuthManager.swift */; };
 		35085EC226709C9B009223E0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EC126709C9B009223E0 /* StorageManager.swift */; };
 		35085EC42670A556009223E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35085EC32670A556009223E0 /* Extensions.swift */; };
+		351556C2267489B60078B45E /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351556C1267489B60078B45E /* IGFeedPostHeaderTableViewCell.swift */; };
+		351556C4267489E80078B45E /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351556C3267489E80078B45E /* IGFeedPostActionsTableViewCell.swift */; };
+		351556C626748A250078B45E /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351556C526748A250078B45E /* IGFeedPostGeneralTableViewCell.swift */; };
 		35177DE8266FB9BD0086E9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DE7266FB9BD0086E9BC /* AppDelegate.swift */; };
 		35177DEA266FB9BD0086E9BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DE9266FB9BD0086E9BC /* SceneDelegate.swift */; };
 		35177DEC266FB9BD0086E9BC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177DEB266FB9BD0086E9BC /* HomeViewController.swift */; };
@@ -32,6 +35,7 @@
 		35177E1A266FBCE70086E9BC /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177E19266FBCE70086E9BC /* SearchResultViewController.swift */; };
 		35177E1C266FBD0F0086E9BC /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177E1B266FBD0F0086E9BC /* PostEditorViewController.swift */; };
 		35177E1E266FBD1B0086E9BC /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35177E1D266FBD1B0086E9BC /* PublishPostViewController.swift */; };
+		359292FB2673916B00B07704 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359292FA2673916B00B07704 /* IGFeedPostTableViewCell.swift */; };
 		9015C82B396E41E856BF880D /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C24AD4A01D1B8E2E0D1AE1 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,9 @@
 		35085EBF26709BA5009223E0 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		35085EC126709C9B009223E0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		35085EC32670A556009223E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		351556C1267489B60078B45E /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		351556C3267489E80078B45E /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		351556C526748A250078B45E /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		35177DE4266FB9BD0086E9BC /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35177DE7266FB9BD0086E9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35177DE9266FB9BD0086E9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +71,7 @@
 		35177E19266FBCE70086E9BC /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		35177E1B266FBD0F0086E9BC /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		35177E1D266FBD1B0086E9BC /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		359292FA2673916B00B07704 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
 		B4C24AD4A01D1B8E2E0D1AE1 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42C1C58E8D196F6B4E54235 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +109,17 @@
 				35177E1D266FBD1B0086E9BC /* PublishPostViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		351556C02674897C0078B45E /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+				359292FA2673916B00B07704 /* IGFeedPostTableViewCell.swift */,
+				351556C1267489B60078B45E /* IGFeedPostHeaderTableViewCell.swift */,
+				351556C3267489E80078B45E /* IGFeedPostActionsTableViewCell.swift */,
+				351556C526748A250078B45E /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = "Home Feed";
 			sourceTree = "<group>";
 		};
 		35177DDB266FB9BD0086E9BC = {
@@ -145,6 +164,7 @@
 		35177DFC266FBB170086E9BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				359292F92673915100B07704 /* Cells */,
 				35177DFF266FBB630086E9BC /* Storyboards */,
 				35177DF0266FB9BE0086E9BC /* Assets.xcassets */,
 			);
@@ -209,6 +229,14 @@
 				35177E0D266FBC700086E9BC /* RegistrationViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		359292F92673915100B07704 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				351556C02674897C0078B45E /* Home Feed */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3FB3A8ABD383AB2AB1513DAE /* Pods */ = {
@@ -341,19 +369,23 @@
 				35177E03266FBBEA0086E9BC /* CameraViewController.swift in Sources */,
 				35177DEC266FB9BD0086E9BC /* HomeViewController.swift in Sources */,
 				35177E0E266FBC700086E9BC /* RegistrationViewController.swift in Sources */,
+				351556C2267489B60078B45E /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				35177E1C266FBD0F0086E9BC /* PostEditorViewController.swift in Sources */,
 				35085EC226709C9B009223E0 /* StorageManager.swift in Sources */,
 				35177E10266FBCA20086E9BC /* PostViewController.swift in Sources */,
 				35085EBE267099EC009223E0 /* DatabaseManager.swift in Sources */,
 				35177E05266FBBFC0086E9BC /* NotificationsViewController.swift in Sources */,
+				359292FB2673916B00B07704 /* IGFeedPostTableViewCell.swift in Sources */,
 				35177E1A266FBCE70086E9BC /* SearchResultViewController.swift in Sources */,
 				35177E0C266FBC5E0086E9BC /* LoginViewController.swift in Sources */,
 				35085EC42670A556009223E0 /* Extensions.swift in Sources */,
+				351556C626748A250078B45E /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				35177E18266FBCD90086E9BC /* SearchViewController.swift in Sources */,
 				35177E07266FBC050086E9BC /* ProfileViewController.swift in Sources */,
 				35085EC026709BA5009223E0 /* AuthManager.swift in Sources */,
 				35177DE8266FB9BD0086E9BC /* AppDelegate.swift in Sources */,
 				35177DEA266FB9BD0086E9BC /* SceneDelegate.swift in Sources */,
+				351556C4267489E80078B45E /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				35177E16266FBCCE0086E9BC /* ListViewController.swift in Sources */,
 				35177E14266FBCC00086E9BC /* SettingsViewController.swift in Sources */,
 			);
