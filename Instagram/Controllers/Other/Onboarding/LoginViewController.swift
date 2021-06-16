@@ -187,6 +187,8 @@ class LoginViewController: UIViewController {
         view.addSubview(headerView)
     }
     
+    
+    //MARK: - Actions
     @objc private func didTapLoginButton() {
         passwordField.resignFirstResponder()
         usernameEmailField.resignFirstResponder()
@@ -247,7 +249,10 @@ class LoginViewController: UIViewController {
     }
 }
 
+
+//MARK: - UITextFieldDelegate
 extension LoginViewController: UITextFieldDelegate {
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         if textField == usernameEmailField {
@@ -255,7 +260,44 @@ extension LoginViewController: UITextFieldDelegate {
         } else if textField == passwordField {
             didTapLoginButton()
         }
-        
         return true
     }
 }
+
+
+//MARK: - PreView
+#if DEBUG
+import SwiftUI
+
+@available(iOS 13, *)
+extension UIViewController {
+    private struct ViewControllerPreview: UIViewControllerRepresentable {
+        
+        typealias UIViewControllerType = UIViewController
+        
+        let controller: UIViewController
+        
+        func makeUIViewController(context: Context) -> UIViewController {
+            return controller
+        }
+        
+        func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+//           Log("updateView")
+        }
+    }
+    
+    func toPreview() -> some View {
+        // inject self (the current view controller) for the preview
+        ViewControllerPreview(controller: self)
+    }
+}
+
+@available(iOS 13, *)
+struct LoginViewControllerPreview: PreviewProvider {
+
+    static var previews: some View {
+        // view controller using programmatic UI
+        LoginViewController().toPreview()
+    }
+}
+#endif

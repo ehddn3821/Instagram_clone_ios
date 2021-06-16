@@ -72,6 +72,9 @@
 		35177E1B266FBD0F0086E9BC /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		35177E1D266FBD1B0086E9BC /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		359292FA2673916B00B07704 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		35ABB7282678EA5A0082958A /* Instagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Instagram.entitlements; sourceTree = "<group>"; };
+		35ABB72C2678F8700082958A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		35ABB72E2678F87A0082958A /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		B4C24AD4A01D1B8E2E0D1AE1 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42C1C58E8D196F6B4E54235 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 		2DF2CD493596B0CFC5E8524B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35ABB72E2678F87A0082958A /* PushKit.framework */,
+				35ABB72C2678F8700082958A /* UserNotifications.framework */,
 				B4C24AD4A01D1B8E2E0D1AE1 /* Pods_Instagram.framework */,
 			);
 			name = Frameworks;
@@ -143,11 +148,13 @@
 		35177DE6266FB9BD0086E9BC /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				35177DFE266FBB200086E9BC /* Resources */,
-				35177DFD266FBB1C0086E9BC /* Models */,
-				35177DFC266FBB170086E9BC /* Views */,
-				35177DFB266FBB0F0086E9BC /* Controllers */,
+				35ABB7282678EA5A0082958A /* Instagram.entitlements */,
 				35177DF5266FB9BE0086E9BC /* Info.plist */,
+				35177DFB266FBB0F0086E9BC /* Controllers */,
+				35177DFD266FBB1C0086E9BC /* Models */,
+				35177DFE266FBB200086E9BC /* Resources */,
+				3570CC51267A31F80016FFF6 /* Utils */,
+				35177DFC266FBB170086E9BC /* Views */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -229,6 +236,13 @@
 				35177E0D266FBC700086E9BC /* RegistrationViewController.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3570CC51267A31F80016FFF6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		359292F92673915100B07704 /* Cells */ = {
@@ -535,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Instagram/Instagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LT5ZADXQMP;
 				INFOPLIST_FILE = Instagram/Info.plist;
@@ -556,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Instagram/Instagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LT5ZADXQMP;
 				INFOPLIST_FILE = Instagram/Info.plist;

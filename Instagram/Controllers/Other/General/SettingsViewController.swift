@@ -42,6 +42,7 @@ final class SettingsViewController: UIViewController {
         tableView.frame = view.bounds
     }
     
+    // MARK: - configureModels
     private func configureModels() {
         data.append([
             SettingCellModel(title: "Edit Profile") { [weak self] in
@@ -74,6 +75,7 @@ final class SettingsViewController: UIViewController {
         ])
     }
     
+    // MARK: - EditProfile
     private func didTapEditProfile() {
         let vc = EditProfileViewController()
         vc.title = "Edit Profile"
@@ -81,14 +83,17 @@ final class SettingsViewController: UIViewController {
         present(navVC, animated: true)
     }
     
+    // MARK: - InviteFriends
     private func didTapInviteFriends() {
         
     }
     
+    // MARK: - SaveOriginalPosts
     private func didTapSaveOriginalPosts() {
         
     }
     
+    // MARK: - OpenURL
     private func openURL(type: SettingsURLType) {
         let urlString: String
         switch type {
@@ -109,6 +114,7 @@ final class SettingsViewController: UIViewController {
         case terms, privacy, help
     }
     
+    // MARK: - LogOut
     private func didTapLogOut() {
         
         let actionSheet = UIAlertController(title: "Log Out",
@@ -142,6 +148,8 @@ final class SettingsViewController: UIViewController {
     }
 }
 
+
+// MARK: - UITableView
 extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return data.count
